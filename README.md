@@ -172,6 +172,27 @@ After “unsubscribe” command user gets “subscribe_report” message with �
 “Closed”.
 After that user does not get any further messages in the channel with given topic_id.
 
+## Response state codes
+
+| Value | Code                   |
+|-------|------------------------|
+| 0     | Ok                     |
+| 1     | UserBlocked            |
+| 2     | InvalidToken           |
+| 3     | UserDisconnected       |
+| 4     | TopicNotSubscribed     |
+| 5     | SpecifySymbols         |
+| 6     | BadChannel             |
+| 7     | InvalidMode            |
+| 8     | LoginTimeout           |
+| 9     | InvalidSymbol          |
+| 10    | RateExceeded           |
+| 11    | AnonymousDisallowed    |
+| 12    | Partial                |
+| 13    | HeartbeatTimeout       |
+| 14    | TopicAlreadySubscribed |
+| 15    | InvalidModifyMode      |
+| 16    | UnsupportedVersion     |
 
 
 
