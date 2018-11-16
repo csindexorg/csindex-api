@@ -58,7 +58,7 @@ def on_open(ws):
 
 
 if __name__ == "__main__":
-    host = "wss://csindex.org/api2/index"
+    host = "wss://csindex.org/api/index"
     ws = websocket.WebSocketApp(host,
                                 on_message=on_message,
                                 on_error=on_error,
